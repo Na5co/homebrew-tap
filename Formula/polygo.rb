@@ -3,28 +3,28 @@
 class Polygo < Formula
   desc "Translate app strings (xcstrings, Android, ARB, i18next, po, resx) via local LLM"
   homepage "https://github.com/Na5co/polygo"
-  version "0.1.7"
+  version "0.1.8"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/Na5co/polygo/releases/download/v#{version}/polygo-v#{version}-aarch64-darwin.tar.gz"
-      sha256 "e2fe4a306cb0ac5d1dc16382f92477801e49d047c088aaff0d5f8148333bd5a7"
+      sha256 "8a94471d498f36148f1c77be13f0c861d691b0aa16c2b9fc87cbac69817e7626"
     end
     on_intel do
       url "https://github.com/Na5co/polygo/releases/download/v#{version}/polygo-v#{version}-x86_64-darwin.tar.gz"
-      sha256 "d55bc6fc6721a00da06e8f96d10dd7b79374c37863d9af85dd84434ae5a9853b"
+      sha256 "a9cffeabda7e6158ba03efbd85b51ec7b967ffe422b24342dba5afb3a702e2f5"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Na5co/polygo/releases/download/v#{version}/polygo-v#{version}-aarch64-linux.tar.gz"
-      sha256 "e6e3a549d8d8ff2f146bf7e70dac9c2666530aea887deccf33a50998da03d724"
+      sha256 "5ce9acdc4188bf988cf086da1e3e47335374b7427775790927cd767a6e618e8e"
     end
     on_intel do
       url "https://github.com/Na5co/polygo/releases/download/v#{version}/polygo-v#{version}-x86_64-linux.tar.gz"
-      sha256 "e14e60d22983f1f4ce6b45acdf83016edbc758bee33054d88924a8166351f873"
+      sha256 "888c3f23f94a63e9afe62ae695e44ceb5f7da1042fd407785508d4e23c2e62ca"
     end
   end
 
